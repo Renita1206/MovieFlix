@@ -1,0 +1,177 @@
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>Movie Night</title>
+        <link href="Style1.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <h3 class="logo">MOVIES</h3>
+            </nav>
+            <section class="pitch">
+            <h1 class="ptitle">MOVIE NIGHT</h1>
+            <p class="pstitle">SO...WHAT DO YOU WANT TO WATCH?</p>
+            <select name="cars" id="cars" class="inp">
+                <option value="AMATW">Ant Man and the Wasp</option>
+                <option value="AQ">Aquaman</option>
+                <option value="A1">Avengers</option>
+                <option value="A2">Avengers: Endgame</option>
+                <option value="A3">Avengers: Infinity War</option>
+                <option value="CA1">Captain America: The Winter Soldier</option>
+                <option value="CA2">Captain America: Civil War</option>
+                <option value="CM">Captain Marvel</option>
+                <option value="DS">Doctor Strange</option>
+                <option value="GG">Guardians of the Galaxy</option>
+                <option value="TR">Thor: Ragnarok</option>
+                <option value="SFFH">Spiderman: Far From Home</option>
+                <option value="V">Venom</option>
+                <option value="WW2">Wonder Woman 2</option>
+                <option value="TGS">The Greatest Showman</option>
+                <option value="I">Inception</option>
+            </select>
+            <button class="Btn" onclick="myFunction()">Watch</button>
+            </section>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+        <table>
+            <tr>
+                <td><a href="D:\movies\Avengers.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\A.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Avengers Infinity War.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\A2.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Avengers Endgame.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\A3.jpg" style="width:300px;height:450px;">
+                  </a></td>
+            </tr>
+            <tr>
+                <td><a href="D:\movies\Captain America The Winter Soldier.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\CP1.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Captain America Civil War.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\CP2.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Captain Marvel.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\CM.jpg" style="width:300px;height:450px;">
+                  </a></td>
+            </tr>
+            <tr>
+                <td><a href="D:\movies\Doctor Strange.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\DS.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Ant-Man and The Wasp.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\AWATW.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Guardians of the Galaxy.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\GG.jpg" style="width:300px;height:450px;">
+                  </a></td>
+            </tr>
+            <tr>
+                  <td><a href="D:\movies\Spider Man Far From Home.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\S2.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Thor Ragnarok.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\TR.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\The Greatest Showman.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\TGS.jpg" style="width:300px;height:450px;">
+                  </a></td>
+            </tr>
+            <tr>
+                <td><a href="D:\movies\Wonder Woman 2.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\WW2.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Venom.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\V.jpg" style="width:300px;height:450px;">
+                  </a></td>
+                  <td><a href="D:\movies\Aquaman.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\AQ.jpg" style="width:300px;height:450px;">
+                  </a></td>
+            </tr>
+            <tr>
+                  <td><a href="D:\movies\Inception.mp4">
+                    <img src="C:\Users\Renita Kurian\Documents\VS Code\Web Dev\Movie Night\Pictures\I.jpg" style="width:300px;height:450px;">
+                  </a></td>
+            </tr>
+        </table>
+        </center>
+        <script>
+            function myFunction() 
+            {
+              var x = document.getElementById("cars").value;
+              console.log(x);
+              if(x.trim()=="AMATW")
+               {
+                    window.open("D:/movies/Ant-Man and The Wasp.mp4");
+               } 
+               if(x.trim()=="AQ")
+               {
+                    window.open("D:/movies/Aquaman.mp4");
+               }
+               if(x.trim()=="DS")
+               {
+                    window.open("D:/movies/Doctor Strange.mp4");
+               }
+               if(x.trim()=="A1")
+               {
+                    window.open("D:/movies/Avengers.mp4");
+               }
+               if(x.trim()=="A2")
+               {
+                    window.open("D:/movies/Avengers Infinity War.mp4.jpg");
+               }
+               if(x.trim()=="A3")
+               {
+                    window.open("D:/movies/Avengers Endgame.mp4");
+               }
+               if(x.trim()=="CA1")
+               {
+                    window.open("D:/movies/Captain America The Winter Soldier.mp4");
+               }
+               if(x.trim()=="CA2")
+               {
+                    window.open("D:/movies/Captain America Civil War.mp4");
+               }
+               if(x.trim()=="CM")
+               {
+                    window.open("D:/movies/Captain Marvel.mp4");
+               }
+               if(x.trim()=="GG")
+               {
+                    window.open("D:/movies/Guardians of the Galaxy.mp4");
+               }
+               if(x.trim()=="TR")
+               {
+                    window.open("D:/movies/Thor Ragnarok.mp4");
+               }
+               if(x.trim()=="I")
+               {
+                    window.open("D:/movies/Inception.mp4");
+               }
+               if(x.trim()=="SFFH")
+               {
+                    window.open("D:/movies/Spider Man Far From Home.mp4");
+               }
+               if(x.trim()=="TGS")
+               {
+                    window.open("D:/movies/The Greatest Showman.mp4");
+               }
+               if(x.trim()=="V")
+               {
+                    window.open("D:/movies/Venom.mp4");
+               }
+               if(x.trim()=="WW2")
+               {
+                    window.open("D:/movies/Wonder Woman 2.mp4");
+               }
+
+            }
+        </script>
+</html>

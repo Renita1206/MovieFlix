@@ -1,0 +1,78 @@
+html,body
+{
+    margin:0;
+    font-family:'Helvetica Neue','Helvetica';
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+header
+{
+    background: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.05)),url('Marvel.jpg');
+        height: 100vh;
+        }
+
+nav h3.logo
+{
+    color:#e50914;
+    float: left;
+    line-height: normal;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-weight: 500;
+    border-radius: 3px;
+    font-size: 45px;
+    text-decoration:none;
+}
+header nav
+{
+    height:90px;
+}
+.pitch
+{
+    margin: 0 3%;
+    position: absolute;
+    top:35%;
+    font-size: 1.8vw;
+}
+.ptitle
+{
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+}
+.pstitle
+{
+    margin: 0 0 0.5em;
+}
+.Btn
+{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 12px 2em;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    vertical-align: middle;
+    font-family:sans-serif;
+    border-radius: 2px;
+    user-select:none;
+    text-align: center;
+    border: 0;
+}
+
+.inp
+{
+    height:50px;
+    width:500px;
+    font: 200;
+}
+
+    
+    
+    
+
+
+    
